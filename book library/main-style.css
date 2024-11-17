@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  display: flexbox;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav button {
+  background-color: blue;
+  border: none;
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+nav button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+#bookList, #historyList {
+  margin-top: 20px;
+  padding: 10px;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto; 
+  border: 3px solid blue; 
+  background: black; 
+  border-radius: 7px;
+}
+
+
+.book-item {
+  background: rgb(255, 255, 255);
+  color: black;
+  font-size: large;
+  padding: 15px;
+  margin: 10px 0;
+  border: 3px solid blue;
+  border-radius:20px ;
+}
+.book-item button {
+  background-color: blue;
+  border: none;
+  margin: 0 5px;
+  position: relative;
+  top: 5px;
+  left:-6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+.book-item button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+form button {
+  background-color: blue;
+  border: none;
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  top: 10px;
+}
+form button:hover {
+  background-color: rgb(0, 0, 0);}
+
+input {
+  width: 250px;
+  height: 20px;
+  border: 3px solid blue;
+  border-radius: 7px;
+}
+
+.container {
+  background: black; 
+  border: 3px solid blue;
+  padding: 15px;
+  border-radius: 20px;
+  backdrop-filter: blur(25px);
+  text-align: center;
+  color: white;
+  width: 850px;
+  height: 510px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  
+    }
